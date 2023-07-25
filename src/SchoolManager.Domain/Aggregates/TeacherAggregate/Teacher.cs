@@ -1,4 +1,5 @@
 using SchoolManager.Domain.Aggregates.CourseAggregate;
+using SchoolManager.Domain.Aggregates.TeacherAggregate.ValueObjects;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,8 +9,12 @@ namespace SchoolManager.Domain.Aggregates.TeacherAggregate
 {
     public class Teacher
     {
-        public int Id { get; set; }
-        public string Name { get; set; }
-        public ICollection<Course>? Courses { get; set; }
+        public TeacherId Id { get; private set; }
+        public string Name { get; private set; }
+        public Teacher(string name)
+        {
+            Name = name;
+
+        }
     }
 }
