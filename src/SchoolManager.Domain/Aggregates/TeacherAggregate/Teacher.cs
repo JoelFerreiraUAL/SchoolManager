@@ -7,13 +7,24 @@ using System.Threading.Tasks;
 
 namespace SchoolManager.Domain.Aggregates.TeacherAggregate
 {
-    public class Teacher
+    public sealed class Teacher
     {
         public TeacherId Id { get; private set; }
         public string Name { get; private set; }
-        public Teacher(string name)
+
+        private Teacher(string name)
         {
             Name = name;
+
+        }
+
+        public static Teacher Create(string name)
+        {
+            return new Teacher(name);
+
+        }
+        private Teacher()
+        {
 
         }
     }

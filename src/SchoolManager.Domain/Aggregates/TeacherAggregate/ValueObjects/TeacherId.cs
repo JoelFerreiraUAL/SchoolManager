@@ -10,9 +10,14 @@ namespace SchoolManager.Domain.Aggregates.TeacherAggregate.ValueObjects
     {
         public int Value { get; private set; }
 
-        public TeacherId(int value)
+        private TeacherId(int value)
         {
             Value = value;
+
+        }
+        public static TeacherId Create(int value)
+        {
+            return new TeacherId(value);
 
         }
 

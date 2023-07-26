@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolManager.Application",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolManager.Infrastructure", "src\SchoolManager.Infrastructure\SchoolManager.Infrastructure.csproj", "{BFD2E386-0AD1-46F2-B9FA-ABB8A225B5A9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolManager.Web", "src\SchoolManager.Web\SchoolManager.Web.csproj", "{FA5C5EF6-4A9C-4179-AFC6-31B854122E94}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{BFD2E386-0AD1-46F2-B9FA-ABB8A225B5A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BFD2E386-0AD1-46F2-B9FA-ABB8A225B5A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BFD2E386-0AD1-46F2-B9FA-ABB8A225B5A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA5C5EF6-4A9C-4179-AFC6-31B854122E94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA5C5EF6-4A9C-4179-AFC6-31B854122E94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA5C5EF6-4A9C-4179-AFC6-31B854122E94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA5C5EF6-4A9C-4179-AFC6-31B854122E94}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,6 +50,7 @@ Global
 		{CD1E7A1D-4A9A-4E3F-A4F2-2D573F7569A3} = {CFB3944E-CA9F-4D86-A923-3435021EB3E9}
 		{0F57BD29-D9ED-40F6-A1C0-5F83A8235EF3} = {CFB3944E-CA9F-4D86-A923-3435021EB3E9}
 		{BFD2E386-0AD1-46F2-B9FA-ABB8A225B5A9} = {CFB3944E-CA9F-4D86-A923-3435021EB3E9}
+		{FA5C5EF6-4A9C-4179-AFC6-31B854122E94} = {CFB3944E-CA9F-4D86-A923-3435021EB3E9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3745AEC5-F727-43F5-8C78-2D19190DDF58}

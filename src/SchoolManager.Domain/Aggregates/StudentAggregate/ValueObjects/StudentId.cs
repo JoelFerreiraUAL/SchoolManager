@@ -9,9 +9,18 @@ namespace SchoolManager.Domain.Aggregates.StudentAggregate.ValueObjects
     public class StudentId : ValueObject
     {
         public int Value { get; private set; }
-        public StudentId(int value)
+        private StudentId(int value)
         {
             Value = value;
+
+        }
+        public static StudentId Create(int value)
+        {
+            return new StudentId(value);
+
+        }
+        private StudentId()
+        {
 
         }
         public override IEnumerable<object?> GetEqualityComponents()
