@@ -26,5 +26,9 @@ namespace SchoolManager.Domain.Aggregates.CourseAggregate
             return new Course(name, teacherIds);
 
         }
+        private Course()
+        {
+
+        }
     }
 }
